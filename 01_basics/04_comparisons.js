@@ -13,4 +13,4 @@ console.log(null >= 0);   //true
 
 // === -> strict check (abhi yeh khali conversion nahi karega abhi yeh datatype bhi check karega)
 console.log(2===2); //true
-console.log("2"===2); //false qki abhi khali convert nahi abhi datatype bhi check akr raha hai
+console.log("2"===2); //false qki abhi khali convert nahi abhi datatype bhi check akr raha hai 
