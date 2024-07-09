@@ -15,4 +15,5 @@
 
 /* 1) Arrays
    2) Objects
-   3) functions
+   3) functions */
+console.log("hello world");
