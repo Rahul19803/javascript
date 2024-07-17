@@ -65,6 +65,8 @@ if (true){
     const username="rahul"
     if(username=="rahul"){
         const website ="utube"
-        console.log(username + website);
+        console.log(username + website); //-> rahulutube because we have accessed the username from the parent scope
     }
+    console.log(website)//-> ReferenceError: website is not defined . This is because we are trying to access that variable outside of its scope
 }
+console.log(username);//-> ReferenceError: Username is not defined . This is because we are trying to access that variable outside of its scope
