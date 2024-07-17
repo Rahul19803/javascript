@@ -54,7 +54,7 @@ function one(){
 
     function two(){
         const website="utube"
-        console.log(username);//-> accesing 
+        console.log(username);//-> accesing the variable value from outside of the scope as 
     }
     
     two() //-> Rahul
