@@ -54,10 +54,17 @@ function one(){
 
     function two(){
         const website="utube"
-        console.log(username);//-> accesing the variable value from outside of the scope as 
+        console.log(username);//-> accesing the variable value from outside of the scope as this fucntion is an child variable so it can access the variable of parent fucntion but it Parent function cannot acces the variable of the child fucntion
     }
     
     two() //-> Rahul
 }
 one()
 
+if (true){
+    const username="rahul"
+    if(username=="rahul"){
+        const website ="utube"
+        console.log(username + website);
+    }
+}
