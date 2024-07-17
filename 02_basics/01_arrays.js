@@ -1,7 +1,7 @@
 // array
-// javascript array are resizable
+// javascript arrays are resizable
 
-// whenever performing array-copy operations javascripts creates a shallow copies
+// whenever performing array-copy operations javascripts creates a shallow copies means duplicate copies
 
 const myArr=[0,1,2,"rahul",4]
 console.log(myArr[3]);//-> rahul
