@@ -3,7 +3,7 @@
 //2 - Constructor ki tarah --> yaha pe singleton banta hai
 
 
-//Object literals
+//Object literals //Objects can contain diffrent datatypes
 const JsUser = {
     names: 'Rahul',
     age: '18',
@@ -18,7 +18,7 @@ console.log(JsUser.age);//-> 18
 
 //2nd Method
 console.log(JsUser["age"]);//-> 18
-// why this above line is effecient because when we define something in an object using by doube quotes then we cannot acces that object using JsUser.age we will have to use this one so it is recommended to use this type
+// why this above line is effecient because when we have define something in an object using by doube quotes then we cannot acces that object using JsUser.age directly , we will have to use this one so it is recommended to use this type
 
 //overriding the objects
 JsUser.location="banglore"
