@@ -73,3 +73,7 @@ console.log(Object.values(tinderUser));//-> [ 'abc', 'rahul', 'false' ]
 // if we want all the entries from the tinderuser then
 
 console.log(Object.entries(tinderUser));//-> the o/p will be in the array within array  , [ [ 'id', 'abc' ], [ 'name', 'rahul' ], [ 'isloggedIn', 'false' ] ]
+
+
+
+
