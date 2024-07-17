@@ -33,5 +33,18 @@ function handleobject(anyobject){
     console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
 }
 
-console.log(handleobject(user));//-> username is rahul and price is 199
-                                //undefined
+handleobject(user);//-> username is rahul and price is 199
+
+
+
+
+
+// we can do same in array
+
+const newArray=[200,400,100,900]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+
+}
+console.log(returnSecondValue(newArray));//-> 400
