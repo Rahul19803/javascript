@@ -8,7 +8,7 @@ function sayMyName(){
     console.log('l');
 }
 
-sayMyName()
+sayMyName()d
 */
 
 
@@ -49,8 +49,25 @@ console.log(addTwoNumbers(2,3));
 
 
 
+
+
+/*
 function loginUserMessage(username){
     return `${username} just logged in`
 }
 
-console.log(loginUserMessage(rahul))
+console.log(loginUserMessage("rahul"))//-> Rahul just logged in
+console.log(loginUserMessage(""))//-> just logged in
+console.log(loginUserMessage())//-> undefined just logged in
+*/
+// so in this case this fucntion is showing undefined just logged in which we donot want when the user passes the empty string so we will use if else statement to overcome this 
+
+function loginUserMessage(username){
+    if(username === undefined){         //-> or we can write it as if(!username)
+        console.log("please enter a username!");
+        return
+    }
+    return `$(username) just logged in`
+}
+console.log(loginUserMessage());//-> please enter a username!
+                                //   undefined
