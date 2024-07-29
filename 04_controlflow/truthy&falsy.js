@@ -49,3 +49,16 @@ const emptyobj={}
 if(Object.keys(emptyobj).length==0){
     console.log("empty obj");
 }
+
+//nullish coalescing operator (??): used for cases like null and undefined 
+
+// this is used for safety purposes like sometimes the value for we get from the database is null or undefined
+// then for safety we use default things
+
+let var1;
+//var1= 5??10 //will always take the first value-> 5
+//var1= null??10 // 10 qki null tha
+var1= undefined??10 //10
+
+
+console.log(var1);
