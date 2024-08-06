@@ -12,4 +12,5 @@ let isLoggedIn=false
   //undefined
   //symbol= uniqueness
 
+  console.log(name,age,isLoggedIn);
   
