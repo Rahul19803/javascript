@@ -2,7 +2,7 @@ let score=false
 
 console.log(typeof(score));
 
-let isNumber = Number(score)
+let isNumber = Number(score)//converting boolean to a number
 console.log(typeof(isNumber))
 console.log(isNumber)
 
